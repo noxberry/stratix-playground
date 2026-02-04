@@ -1,0 +1,13 @@
+{
+  "name": "contact",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/contact/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["contact"],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
